@@ -4,7 +4,7 @@ VKProgressHUD_Swift
 #### Image
 ![image](https://github.com/VKOOY/VKProgressHUD_Swift/blob/master/VKProgressHUD.gif)
 
-#### 使用说明
+#### Use
 ```
     /**
      *  Success
