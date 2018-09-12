@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="thw-AW-C9c"/>
+                        <viewControllerLayoutGuide type="bottom" id="hve-19-7Oy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vk_LaunchImage" translatesAutoresizingMaskIntoConstraints="NO" id="CEq-Ee-SAs">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vk_launch_logo" translatesAutoresizingMaskIntoConstraints="NO" id="pLj-df-jgv">
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="5JI-MX-dNu"/>
+                                    <constraint firstAttribute="width" constant="200" id="mb8-AG-r3o"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="CEq-Ee-SAs" secondAttribute="trailing" id="G0U-cJ-6qF"/>
+                            <constraint firstItem="hve-19-7Oy" firstAttribute="top" secondItem="CEq-Ee-SAs" secondAttribute="bottom" id="Pgh-hr-FHX"/>
+                            <constraint firstItem="CEq-Ee-SAs" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="PtP-yv-aH0"/>
+                            <constraint firstItem="pLj-df-jgv" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="edo-fa-ZAR"/>
+                            <constraint firstItem="pLj-df-jgv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="mtr-xH-WKY"/>
+                            <constraint firstItem="CEq-Ee-SAs" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="wGV-BY-RDy"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="vk_LaunchImage" width="375" height="667"/>
+        <image name="vk_launch_logo" width="300" height="300"/>
+    </resources>
+</document>
